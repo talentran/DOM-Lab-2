@@ -1,0 +1,54 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+#app {
+	margin: 0 auto;
+	max-width: 400px;
+}
+
+#newTaskInput {
+	padding: 5px;
+	border: none;
+	border-bottom: 2px solid #ccc;
+	font-size: 16px;
+	width: 75%;
+}
+
+#addTaskButton {
+	padding: 5px 10px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	font-size: 16px;
+	cursor: pointer;
+	width: 20%;
+}
+
+ul {
+	padding: 0;
+	list-style-type: none;
+}
+
+li {
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+li.completed {
+	text-decoration: line-through;
+}
+
+#clearCompletedButton {
+	margin-top: 10px;
+	padding: 5px 10px;
+	background-color: #f44336;
+	color: white;
+	border: none;
+	font-size: 16px;
+	cursor: pointer;
+}
